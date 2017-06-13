@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestViewExplosion.iml" filepath="$PROJECT_DIR$/TestViewExplosion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsoupdata/jsoupdata.iml" filepath="$PROJECT_DIR$/jsoupdata/jsoupdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/networkadapt/networkadapt.iml" filepath="$PROJECT_DIR$/networkadapt/networkadapt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testluncher/testluncher.iml" filepath="$PROJECT_DIR$/testluncher/testluncher.iml" />
+    </modules>
+  </component>
+</project>

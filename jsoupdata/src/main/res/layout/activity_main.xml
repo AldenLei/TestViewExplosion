@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.lmg.alden.jsoupdata.MainActivity">
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取数据" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<TextView
+            android:id="@+id/txt_view"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hello World!" />-->
+       <!-- <com.lmg.alden.jsoupdata.BaozouDetailView
+            android:id="@+id/baozou_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.lmg.alden.jsoupdata.BaozouDetailView>-->
+        <LinearLayout
+            android:id="@+id/content_lv"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
