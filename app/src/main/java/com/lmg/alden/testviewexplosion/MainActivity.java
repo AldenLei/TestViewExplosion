@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import tyrantgit.explosionfield.ExplosionField;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
+    //测试git
     private Button button;
     private ImageView imgError,imgSuccess;
     ExplosionField explosionField;
